@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    .footer {
+        display: flex;
+        padding: 20px;
+        margin-top: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
